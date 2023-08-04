@@ -144,3 +144,31 @@ button {
 .card p{
     color: #4B5563;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 138px 0;
+}
+
+.quote-content {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-content p {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-content .author {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 40px;
+}
