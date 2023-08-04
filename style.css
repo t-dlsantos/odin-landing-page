@@ -206,3 +206,11 @@ button {
 .unfilled {
     border: 2px solid white;
 }
+
+.footer {
+    display: flex;
+    height: 100px;
+    color: white;
+    align-items: center;
+    flex: auto;
+}
