@@ -98,3 +98,49 @@ button {
     color: #F9FAFB;
     font-weight: 900;
 }
+
+.random-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 54px 0 122px 0;
+}
+
+.random-content {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+.random-content h1 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 173px;
+    gap: 12px;
+}
+
+.box {
+    width: 173px;
+    height: 173px;
+    border-radius: 16px;
+    border: 5px solid #3882F6;
+}
+
+.card p{
+    color: #4B5563;
+}
